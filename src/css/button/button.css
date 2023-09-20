@@ -1,0 +1,67 @@
+.btn {
+  border-radius: 3px;
+  /* box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.16); */
+  height: 36px;
+  overflow: hidden;
+  border: none;
+  cursor: pointer;
+}
+.btn-add {
+  background-color: #1aa4c8;
+  border-radius: 3px;
+  /* box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.16); */
+  width: 110px;
+  height: 36px;
+  overflow: hidden;
+  border: none;
+  font-size: 12.5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn-export,
+.btn-delete {
+  background-color: #ffffff;
+  border-radius: 3px;
+  /* box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.16); */
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  border: none;
+  cursor: pointer;
+}
+.btn-export:hover,
+.btn-delete:hover {
+  /* box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.16); */
+}
+.btn-cancel {
+  width: 100px;
+  background-color: #ffffff;
+}
+.btn-cancel:hover {
+  border: 1px solid #1aa4c8;
+  color: #1aa4c8;
+}
+.btn-save {
+  width: 100px;
+  background-color: #1aa4c8;
+  color: #ffffff;
+}
+.btn-add:hover,
+.btn-save:hover {
+  background-color: #1c8eaa;
+}
+.btn-defaul {
+  width: 100px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: 1px solid rgb(132, 130, 134);
+}
+.btn-defaul:hover {
+  background-color: #1aa4c8;
+  color: #ffffff;
+  border: none;
+}
+.btn-disabled {
+  filter: brightness(70%);
+  cursor: not-allowed;
+}

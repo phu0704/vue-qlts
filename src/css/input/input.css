@@ -1,0 +1,79 @@
+.inp {
+  background-color: #ffffff;
+  border-radius: 2.5px;
+  border: 1px solid #afafaf;
+  height: 36px;
+  overflow: hidden;
+  padding: 0 12px;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  margin-bottom: 5px;
+}
+.inp:hover{
+  background-color: rgba(181, 190, 192, 0.2);
+  border: 1px solid #1aa4c8;
+}
+.inp:focus{
+  border: 1px solid #1aa4c8;
+}
+
+.input-FD {
+  border-radius: 3px;
+  width: 112px;
+  height: 30px;
+  overflow: hidden;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.input-FD:hover {
+  background-color: rgba(26, 164, 200, 0.2);
+}
+.input-FD .input-FD__year {
+  font-weight: 700;
+}
+.input-FD .input-FD__icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-search {
+  background-color: #ffffff;
+  border-radius: 2.5px;
+  border: 1px solid #afafaf;
+  width: 179px;
+  height: 35px;
+  overflow: hidden;
+  background-image: url(../../assets/icon/main/TimKiem.svg);
+  background-repeat: no-repeat;
+  padding-left: 38px;
+  background-position: 13px;
+  box-sizing: border-box;
+  outline: none;
+}
+.input-search:hover{
+  border: 1px solid #1aa4c8;
+}
+.input-search:focus{
+  border: 1px solid #1aa4c8;
+}
+.input-required{
+  border: 1px solid red;
+}
+.readonly{
+  background-color: rgba(181, 190, 192, 0.2);
+}
+.readonly:hover{
+  border: 1px solid #afafaf;
+}
+.input-number{
+ 
+  text-align: right;
+  padding-right: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  
+  
+}

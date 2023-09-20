@@ -1,0 +1,96 @@
+.misa-combobox {
+  /* background: rgb(168, 155, 155); */
+  font-size: 14px;
+  
+  height: auto;
+  position: relative;
+}
+.misa-combobox__header {
+  position: relative;
+}
+.misa-combobox__header input {
+  border-radius: 2.5px;
+  border: 1px solid #afafaf;
+  box-sizing: border-box;
+  height: 36px;
+  
+  padding: 0 12px;
+  outline: none;
+  width: 100%;
+}
+.arrow-down {
+  position: absolute;
+  /* top: 15px; */
+  right: 0px;
+  padding: 14px;
+  /* background: rgb(122, 118, 118); */
+  cursor: pointer;
+  
+}
+.arrow-down:hover{
+  background-color: rgba(26, 164, 200, .2);
+  scale: 0.95;
+}
+.misa-combobox__body {
+  background: #ffffff;
+  padding: 5px;
+  max-height: 252px;
+  overflow-y: auto;
+  position: absolute;
+  top: 36px;
+  left: 0;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+  width: 100%;
+  background-color: #f4f7ff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+  z-index: 5;
+}
+.misa-combobox__body-close {
+  opacity: 0;
+  height: 0;
+  padding: 0;
+  transition: all 0.3s linear;
+}
+
+.row{
+  border-bottom: 1px solid #f4f7ff;;
+  box-sizing: border-box;
+  
+}
+.row__container {
+  padding-left: 7px;
+  height: 36px;
+  border-radius: 2.5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 7px;
+}
+.misa-combobox__body .row:hover {
+  background-color: rgba(26, 164, 200, 0.2);
+  border-bottom: 1px solid white;
+  cursor: pointer;
+  
+}
+.row-select {
+  background-color: rgba(26, 164, 200, 0.2);
+}
+.tick {
+  width: 15px;
+  height: auto;
+  margin-bottom: 3px;
+}
+.filter{
+  height: 35px;
+  background-image: url(../../assets/icon/combobox/Filter.svg);
+  background-repeat: no-repeat;
+  padding-left: 38px !important;
+  background-position: 6px;
+
+  background-color: #ffffff;
+  border-radius: 2.5px;
+  border: 1px solid #afafaf;
+  height: 35px;
+  overflow: hidden;
+}

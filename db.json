@@ -1,0 +1,156 @@
+{
+  "fixed_assets": [
+    {
+      "id": 1,
+      "fixed_asset_id": 1,
+      "fixed_asset_code": "55H7WN72/20220",
+      "fixed_asset_name": "Dell Inspiron 3467",
+      "department_id": "",
+      "department_code": "HCKT",
+      "department_name": "Hành chính kế toán",
+      "fixed_asset_category_id": "",
+      "fixed_asset_category_code": "MTXT",
+      "fixed_asset_category_name": "Máy tính xách tay",
+      "purchase_date": "01/01/2021",
+      "cost": 20000000,
+      "quantity": 1,
+      "depreciation_rate": 6.67,
+      "tracked_year": "",
+      "life_time": 10,
+      "production_year": "2023",
+      "accumulated": 894000,
+      "residual_value": 19106000
+    },
+    {
+      "id": 2,
+      "fixed_asset_id": 2,
+      "fixed_asset_code": "44DTWN72/20221",
+      "fixed_asset_name": "IPhone 14",
+      "department_id": "",
+      "department_code": "QTNS",
+      "department_name": "Quản trị nhân sự",
+      "fixed_asset_category_id": "",
+      "fixed_asset_category_code": "DT",
+      "fixed_asset_category_name": "Điện thoại",
+      "purchase_date": "01/01/2021",
+      "cost": 20000000,
+      "quantity": 1,
+      "depreciation_rate": 5.54,
+      "tracked_year": "",
+      "life_time": 4,
+      "production_year": "2023",
+      "accumulated": 894000,
+      "residual_value": 19106000
+    },
+    {
+      "id": 3,
+      "fixed_asset_id": 3,
+      "fixed_asset_code": "77H7WN72/20222",
+      "fixed_asset_name": "iPad Pro",
+      "department_id": "",
+      "department_code": "PTK",
+      "department_name": "Phòng thư ký",
+      "fixed_asset_category_id": "",
+      "fixed_asset_category_code": "MTB",
+      "fixed_asset_category_name": "Máy tính bảng",
+      "purchase_date": "01/01/2021",
+      "cost": 20000000,
+      "quantity": 1,
+      "depreciation_rate": 4.48,
+      "tracked_year": "",
+      "life_time": 6,
+      "production_year": "2023",
+      "accumulated": 894000,
+      "residual_value": 19106000
+    },
+    {
+      "id": 4,
+      "fixed_asset_id": 4,
+      "fixed_asset_code": "55H7WN72/20223",
+      "fixed_asset_name": "Dell Inspiron 3467",
+      "department_id": "",
+      "department_code": "HCKT",
+      "department_name": "Hành chính kế toán",
+      "fixed_asset_category_id": "",
+      "fixed_asset_category_code": "MTXT",
+      "fixed_asset_category_name": "Máy tính xách tay",
+      "purchase_date": "01/01/2021",
+      "cost": 20000000,
+      "quantity": 1,
+      "depreciation_rate": 8.51,
+      "tracked_year": "",
+      "life_time": 6,
+      "production_year": "2023",
+      "accumulated": 894000,
+      "residual_value": 19106000
+    },
+    {
+      "fixed_asset_id": 0,
+      "fixed_asset_code": "TS00001",
+      "fixed_asset_name": "iphone11",
+      "department_id": "0",
+      "department_code": "PTK",
+      "department_name": "Phòng thư ký",
+      "fixed_asset_category_id": "0",
+      "fixed_asset_category_code": "DT",
+      "fixed_asset_category_name": "Điện thoại",
+      "purchase_date": "7/9/2023",
+      "cost": 5,
+      "quantity": 1,
+      "depreciation_rate": 5.54,
+      "tracked_year": "0",
+      "life_time": 4,
+      "production_year": "2023",
+      "accumulated": 894000,
+      "residual_value": 19106000,
+      "id": 5
+    }
+  ],
+  "asset_category_code": [
+    {
+      "asset_category_code": "MTXT"
+    },
+    {
+      "asset_category_code": "MTB"
+    },
+    {
+      "asset_category_code": "DT"
+    }
+  ],
+  "asset_category_name": [
+    {
+      "asset_category_name": "Máy tính xách tay"
+    },
+    {
+      "asset_category_name": "Máy tính bảng"
+    },
+    {
+      "asset_category_name": "Điện thoại"
+    }
+  ],
+  "department_code": [
+    {
+      "department_code": "HCKT"
+    },
+    {
+      "department_code": "QTNS"
+    },
+    {
+      "department_code": "PTK"
+    }
+  ],
+  "department_name": [
+    {
+      "department_name": "Hành chính kế toán"
+    },
+    {
+      "department_name": "Quản trị nhân sự"
+    },
+    {
+      "department_name": "Phòng thư ký"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,10 @@
+.lab{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 10px;
+}
+.lab-mts{
+    color: red;
+    font-size: 6px;
+}
